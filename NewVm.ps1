@@ -36,4 +36,4 @@ New-VM `
 -VHDPath "$VmPath\$DiskName.vhdx"
 
 # set processors
-Set-VMProcessor TestVM -Count 8
+Set-VMProcessor "$VmName" -Count 8
