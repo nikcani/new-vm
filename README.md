@@ -17,12 +17,11 @@
 1. Run `.\NewVm.ps1`
 1. Open Hyper-v
 1. Start & connect to fresh created VM
-
-#### VPN
-1. Paste OVPN File into Folder that does not need Admin Privileges, e.g. the Desktop
-1. Move OVPN File inside the VPN to `C:\Program Files\OpenVPN\config`
-1. Right click: Windows System Tray > OpenVPN GUI
-1. Connect > Enter Credentials
+1. (optional) VPN
+    1. Paste OVPN File from Host into VM directory that does not need admin privileges, e.g. the Desktop
+    1. Move OVPN File inside the VM to `C:\Program Files\OpenVPN\config`
+    1. Right click: Windows System Tray > OpenVPN GUI
+    1. Connect > Enter Credentials
 
 ## Sources
 - https://www.altaro.com/hyper-v/templating-virtual-machines-with-hyper-v-manager/
