@@ -34,3 +34,6 @@ New-VM `
 -Path "$CurrentDirectory" `
 -SwitchName 'Default Switch'`
 -VHDPath "$VmPath\$DiskName.vhdx"
+
+# set processors
+Set-VMProcessor TestVM -Count 8
