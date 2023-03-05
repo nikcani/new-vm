@@ -34,5 +34,3 @@ New-VM `
 -Path "$CurrentDirectory" `
 -SwitchName 'Default Switch'`
 -VHDPath "$VmPath\$DiskName.vhdx"
-
-Set-VMFirmware "Test VM" -EnableSecureBoot On
