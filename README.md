@@ -5,11 +5,13 @@
 ### Dependencies
 - Hyper-V must be available and active
 - In Hyper-V a External Virtual Switch Named "Default Switch" must exist
-- GIT must be available in PowerShell
+- (optional) GIT should be available in PowerShell
 
 ### Install
 1. Open PowerShell
 1. Run `git clone https://gitlab.com/nikcani/new-vm.git`
+    1. (alternative) Download https://gitlab.com/nikcani/new-vm/-/archive/main/new-vm-main.zip
+    1. (alternative) Unzip
 1. Run `cd new-vm`
 1. (optional) Move desired base image into
 
