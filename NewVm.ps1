@@ -5,7 +5,7 @@ Import-Module BitsTransfer
 Clear-Host
 
 # create folder for vm
-$CurrentDirectory = Get-Location
+$CurrentDirectory = $PSScriptRoot
 $VmName = Read-Host -Prompt 'VM Name'
 $VmPath = "$CurrentDirectory\$VmName"
 If(!(test-path -PathType container $VmPath))
@@ -36,4 +36,4 @@ New-VM `
 -VHDPath "$VmPath\$DiskName.vhdx"
 
 # set processors
-Set-VMProcessor "$VmName" -Count 8
+Set-VMProcessor "$VmName" -Count 4

@@ -1,0 +1,1 @@
+Powershell -noprofile -File %CD%\Launcher.ps1
