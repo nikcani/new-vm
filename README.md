@@ -27,6 +27,9 @@
 3. Right click: Windows System Tray > OpenVPN GUI
 4. Connect > Enter Credentials
 
+# Possible future extensions
+- https://github.com/dorssel/usbipd-win
+
 # Sources
 - https://www.altaro.com/hyper-v/templating-virtual-machines-with-hyper-v-manager/
 - https://www.altaro.com/hyper-v/how-to-create-import-virtual-machines/
