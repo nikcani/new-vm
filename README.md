@@ -14,7 +14,7 @@
 1. Download https://gitlab.com/nikcani/new-vm/-/archive/main/new-vm-main.zip
 2. Unzip new-vm-main.zip into your desired installation location
 
-## Use
+## Use (https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts)
 1. Double-click NewVmAsAdmin
 2. Specify unique VM Name and press Enter
 3. Wait for the script to complete
