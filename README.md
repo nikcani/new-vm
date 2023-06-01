@@ -2,6 +2,7 @@
 ## Dependencies
 - Hyper-V must be available and active
 - In Hyper-V a Virtual Switch Named "Default Switch" must exist
+  - The switch should be of the type "external" so that you can access the network like the host machine can
 - (optional) GIT should be available in PowerShell
 
 ## Install
@@ -21,7 +22,7 @@
 4. Open Hyper-v
 5. Start & connect to fresh created VM
 
-### (optional) VPN
+### (optional & deprecated) VPN
 1. Paste OVPN File from Host into VM folder that does not need admin privileges, e.g. the Desktop
 2. Move OVPN File inside the VM to `C:\Program Files\OpenVPN\config`
 3. Right click: Windows System Tray > OpenVPN GUI
